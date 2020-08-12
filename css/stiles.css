@@ -21,7 +21,21 @@
 }
 
 /* body */
+/* 
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit; */
+/* margin: 0;
+  padding: 0; */
+/* } */
+.list {
+  list-style: none;
+}
 .page {
   color: var(--primary-text-color);
   background-color: var(--white-color);
@@ -30,9 +44,33 @@
   letter-spacing: 0.03em;
 }
 
+.header {
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  width: 1170px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+}
+
 /* logo */
 
 .logo {
+  text-decoration: none;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   color: var(--logo-dark-color);
 
   font-family: "Raleway", sans-serif;
@@ -51,12 +89,19 @@
 }
 
 /* site-nav */
-
-.list {
-  list-style: none;
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link {
+  display: block;
+  margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav .link {
+  text-decoration: none;
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -77,6 +122,7 @@
 /* address */
 
 .address .link {
+  text-decoration: none;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -91,6 +137,7 @@
 }
 
 .address {
+  display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -202,8 +249,9 @@
 /* button */
 
 .button {
+  text-decoration: none;
   color: var(--primary-text-color);
-  background-color: var(--white-color);
+  background-color: var(--accent-colo);
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
