@@ -1,0 +1,266 @@
+/* основной цвет текста - #212121; */
+/* вторичный цвет текста - #757575; */
+/* цвет верхнего лого  - #000000; */
+/* акцент текста - #2196F3; */
+/* белый цвет текста - #FFFFFF; */
+/* адрес и email в footer - rgba(255, 255, 255, 0.6); */
+/* основной цвет фона - #FFFFFF; */
+/* вторичный цвет фона - #F5F4FA; */
+/* акцент фона - #2196F3; */
+/* цвет фона  - rgba(47, 48, 58, 0.8); */
+/* цвет фона footer - #2F303A; */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --background-dark-color: rgba(47, 48, 58, 0.8);
+  --footer-bg-color: #2f303a;
+  --logo-dark-color: #000000;
+}
+
+/* body */
+
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* logo */
+
+.logo {
+  color: var(--logo-dark-color);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1.2;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* address */
+
+.address .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-text {
+  color: var(--primary-text-color);
+}
+
+/* секция - герой */
+
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--background-dark-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* общий стиль для  секций */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--title-text-color);
+}
+
+/* секция - наши преимущества */
+
+.section-advantages-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+}
+
+.section-advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* секция - продукт */
+
+.section-product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-product-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* секция - наша команда */
+
+.section-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-team-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.section-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* секция - постоянные клиенты */
+
+.section-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* footer */
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* ссылки на социальные сети */
+
+/* .socials-link {font-family: serif;} */
+
+.socials-link:hover,
+.socials-link:focus {
+  color: var(--accent-color);
+}
+
+/* button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+/* .button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+} */
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button-item .button:hover,
+.button-item .button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* portfolio page */
+
+/* примеры наших работ*/
+
+.section-item .link {
+  color: var(--primary-text-color);
+}
+
+.section-item .link:hover,
+.section-item .link:focus {
+  color: var(--accent-color);
+}
+
+.section-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-item-caption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.section-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
