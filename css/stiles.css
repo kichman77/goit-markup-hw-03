@@ -139,6 +139,10 @@ address {
 	color: var(--accent-color);
 }
 
+/* .site-nav-item:focus {
+	color: var(--accent-color);
+} */
+
 /* не могу применить active к ссылкам */
 
 /* address */
