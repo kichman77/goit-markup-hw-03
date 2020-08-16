@@ -56,7 +56,6 @@ address {
 
 .header {
 	display: flex;
-	height: 80px;
 	border-bottom: 1px solid #ececec;
 }
 
@@ -81,6 +80,7 @@ address {
 .navigation {
 	display: flex;
 	align-items: center;
+	height: 80px;
 }
 
 /* logo */
@@ -181,8 +181,18 @@ address {
 /* секция - герой */
 
 .hero {
+	max-width: 1600px;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 200px 0;
-	background-color: var(--background-dark-color);
+	background: rgba(47, 48, 58, 0.4);
+	background-image: url(../images/hero-Img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	/* background-color: var(--background-dark-color); */
 }
 
 .hero-title {
