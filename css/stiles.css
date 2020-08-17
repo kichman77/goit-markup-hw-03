@@ -186,13 +186,11 @@ address {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 200px 0;
-	background: rgba(47, 48, 58, 0.4);
-	background-image: url(../images/hero-Img.jpg);
+	background: #c4c4c4;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-Img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
-	/* background-color: var(--background-dark-color); */
 }
 
 .hero-title {
