@@ -158,9 +158,9 @@ address {
 	color: var(--accent-color);
 }
 
-/* .site-nav-item:focus {
+.site-nav-item:active {
 	color: var(--accent-color);
-} */
+}
 
 /* не могу применить active к ссылкам */
 
