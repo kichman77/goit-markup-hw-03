@@ -385,15 +385,25 @@ address {
 .clients-item a {
 	display: flex;
 	justify-content: center;
+}
+.clients-icon {
+	display: block;
+	justify-content: center;
+	align-items: center;
 	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-	color: var(--accent-color);
+.clients-icon:hover,
+.clients-icon:focus {
+	border-color: var(--accent-color);
+}
+
+.clients-svg:hover,
+.clients-svg:focus {
+	fill: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
